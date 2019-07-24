@@ -1,0 +1,16 @@
+{
+  "name": "netflix_login",
+  "version": "1.0.0",
+  "description": "Login",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Acxel Morales",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

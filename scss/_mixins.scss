@@ -1,0 +1,36 @@
+// Media Querys
+@mixin movile {
+    @media (min-width: #{$movile}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+
+@mixin button($bgColor) {
+    background-color: $bgColor;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    border-radius: $radius;
+    font-size: 1rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
